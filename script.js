@@ -53,17 +53,4 @@ class Garage {
 }
 
 
-const nissan = new Vehicle('Nissan', 'Altima', 2007)
-const chrysler = new Vehicle('Chrysler', '300c', 2016)
-const dodge = new Vehicle('Dodge', 'Ram', 2013)
-
-
-const myGarage = new Garage(3)
-
-myGarage.add(nissan)
-myGarage.add(dodge)
-myGarage.add(chrysler)
-
-console.log(myGarage)
-
 
